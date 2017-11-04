@@ -1,0 +1,118 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   xmlns:e="models:Infragistics.Prototypes.Model.Views.Effects;assembly=Infragistics.Prototypes.Model.Views"
+                                                                                   Id="31599ab8-64c6-4540-b6f5-4e4cf78b52bb">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="9879b329-b7ac-4aeb-99ed-835028a0a892">
+            <Content.Layers>
+                <Layer Id="c25fdbc9-89e6-42b9-ba78-18a219d92f65" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="7a7440d4-9789-4244-bd17-d2f49ab9b913" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="9a997e05-821a-4d67-990e-228a5e9c5aa5" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="adcdf533-ce4b-4cf8-96fa-539fc59d1ca5" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 12:25:27" Id="5ad0d386-4bc2-4356-9871-91f508e792d9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="832b74e1-c45c-447b-9cd9-4140cd0f8975">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:Toolbar Id="0a65bad2-64c8-4078-8657-9d4c53166d47" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="eddf722c-e463-45c0-b363-19ad23e3d21a" Panel.Bounds="7,613,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 12:26:47" Id="eb97c0be-0c24-46ea-9bd8-0094c0797a9a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="f0cbef96-37ec-4969-bcfe-d9332fd5ed82" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:Button Text="Sign In/Up" CornerRadius="8" FontFamily="Roboto Condensed" Id="7023a21f-99e4-4b59-9703-678bac108ba5" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:Title RichText="Messanger" FontFamily="Roboto Condensed" Id="dc138732-ed78-4946-a333-4598945c8140" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:TextField Text="my message..." FontFamily="Open Sans" FontStyle="Normal" Id="602f3227-a3a8-4ff5-8d65-e84efb042ea6" Panel.Bounds="10,561,264{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <i:Button Text="Send" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE9F0DA" FontFamily="Open Sans" FontStyle="Normal" Id="23cc0dbc-eb74-4fc4-9dab-222b1a9456a6" Panel.Bounds="285,561,80{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandSwitchTo SceneId="f329b46c-dad7-4be5-952a-5a2feb7add9a" Created="11/04/2017 12:36:25" Id="8e4ff729-cc0a-428f-85d4-cbceb55fbf52" />
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/message.screenpart" Id="ac44c64f-ff88-4c0f-96ea-951ad8c9106f" Panel.Bounds="10,54,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/message.screenpart" Id="683b7229-2d19-4ab0-820e-0dc7f8047dfc" Panel.Bounds="7,198,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;12&quot; FontWeight=&quot;Bold&quot; &gt;RandomUser111&lt;/Run&gt;" Target="7ede7fe2-ba53-4291-b38a-05cc21f84e9a" />
+                                        <Set Property="Label.RichText" Value="second comment in this chat room" Target="6b67ac51-06b1-4fde-b5e8-7c0385779949" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Send" StateGroup="5ad0d386-4bc2-4356-9871-91f508e792d9" ParentScene="5ad0d386-4bc2-4356-9871-91f508e792d9" Created="11/04/2017 12:36:25" Id="f329b46c-dad7-4be5-952a-5a2feb7add9a">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="68d6aafd-c14f-40f3-9b61-dc391ee4c117">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c25fdbc9-89e6-42b9-ba78-18a219d92f65" Duration="250">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/message.screenpart" Id="22ad6430-b3e3-4862-b747-7ed1795349e0" Panel.Bounds="116,345,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;12&quot; FontWeight=&quot;Bold&quot; &gt;Guest&lt;/Run&gt;" Target="7ede7fe2-ba53-4291-b38a-05cc21f84e9a" />
+                                        <Set Property="Label.RichText" Value="my message..." Target="6b67ac51-06b1-4fde-b5e8-7c0385779949" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                            <Add.Effect>
+                                <e:Pop />
+                            </Add.Effect>
+                        </Add>
+                        <Set Property="TextBox.Text" Value="" Target="602f3227-a3a8-4ff5-8d65-e84efb042ea6" />
+                        <Set Property="TextBox.WatermarkText" Value="type your message.." Target="602f3227-a3a8-4ff5-8d65-e84efb042ea6" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

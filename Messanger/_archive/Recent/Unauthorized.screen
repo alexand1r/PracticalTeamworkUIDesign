@@ -1,0 +1,235 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   xmlns:e="models:Infragistics.Prototypes.Model.Views.Effects;assembly=Infragistics.Prototypes.Model.Views"
+                                                                                   Id="ddab55eb-6f6a-48f5-b5af-fffe1c04f16f">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="19b3f9b5-ba81-44e6-960e-cebe3691c7d2">
+            <Content.Layers>
+                <Layer Id="a41b99d3-800f-4ea4-9cae-21d25e31f33e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="8656aa35-5744-4505-a9fb-bb4470c8a148" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="21574b6d-3cbe-4ba2-bdf8-edb70e4e8f1f" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="6eac65cc-9555-41b9-a5dd-b889bec7dd9d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 10:23:02" Id="f2c8945a-53a0-43f5-a02e-c9f6447abb0d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="47d27d8f-c844-4e0f-842d-4078105a3556">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Tabs Id="51250a9e-4ff5-42bc-837c-7a6f83ae5464" Panel.Bounds="0,0,777{5,2147483647},720{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Chat Room #1" IsSelected="True" Id="75e04e48-353a-4da3-8a56-8002de62a614">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="07cd480f-1ece-47a1-93c8-519f35fa8eb7">
+                                                    <Container.Children>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="b9869058-dca4-41cc-bea1-34257cf4d1de" Panel.Bounds="10,106,225,71*">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Set Property="Label.RichText" Value="second comment" Target="4329bb8e-b9bd-4312-8772-f60f19e207a7" />
+                                                                <Resize To="225,71" Target="34f70ec0-3eef-49b3-abc6-adc8daf98ab8" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="78d94466-4f27-4810-81fa-34ce450302ce" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="40daa946-a807-4744-8227-1a6644cfdd65" Panel.Bounds="10,205,214,71*">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Resize To="214,71" Target="34f70ec0-3eef-49b3-abc6-adc8daf98ab8" />
+                                                                <Set Property="Label.RichText" Value="third comment" Target="4329bb8e-b9bd-4312-8772-f60f19e207a7" />
+                                                                <Set Property="Label.RichText" Value="RandomUser111" Target="34d1900a-2015-4ed5-86bb-9da4a26ecfbb" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Chat Room #2" Id="43b3db8a-cd30-4c0a-bc96-acf4c7858486">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c9b75ed2-61b2-48a9-b43a-765fffeb6246">
+                                                    <Container.Children>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="69a2e5a6-30b7-4cf1-b3bf-28a927b2127f" Panel.Bounds="10,106,294,71*">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Resize To="292,71" Target="34f70ec0-3eef-49b3-abc6-adc8daf98ab8" />
+                                                                <Set Property="Label.RichText" Value="another random comment" Target="4329bb8e-b9bd-4312-8772-f60f19e207a7" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="3c1d5939-3a68-4773-b8e8-6cdf22567274" Panel.Bounds="10,10,230{5,2147483647},71*{5,2147483647}">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Set Property="Label.RichText" Value="RandomUser222" Target="34d1900a-2015-4ed5-86bb-9da4a26ecfbb" />
+                                                                <Set Property="Label.RichText" Value="random comment" Target="4329bb8e-b9bd-4312-8772-f60f19e207a7" />
+                                                                <Resize To="230,71" Target="34f70ec0-3eef-49b3-abc6-adc8daf98ab8" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="6a754bd1-ea68-4f5e-a58f-3e4c043d376b" Panel.Bounds="10,205,214,71*">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Resize To="199,71" Target="34f70ec0-3eef-49b3-abc6-adc8daf98ab8" />
+                                                                <Set Property="Label.RichText" Value="RandomUser111" Target="34d1900a-2015-4ed5-86bb-9da4a26ecfbb" />
+                                                                <Set Property="Label.RichText" Value="the comment" Target="4329bb8e-b9bd-4312-8772-f60f19e207a7" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <TextArea Text="my message..." Id="f64ef87f-33ae-45c2-9a13-6e7db87fd9de" Panel.Bounds="0,719,777{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Button Text="Send" Background="#FFD1F0D5" Foreground="#FF203E57" FontSize="21" FontFamily="Roboto Condensed" FontStyle="Bold" Id="27d429e8-16bf-4392-811a-ea77f99a2774" Panel.Bounds="776,719,248{5,2147483647},49{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="908d53fd-b4a4-4150-95b6-27bd2e327486" Created="11/04/2017 11:29:44" Id="1ab0d372-e7f8-4bdf-ba53-9f43806ba1a6" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Rectangle Id="cf142278-5a67-4e80-a2ec-4cc6f339b8dc" Panel.Bounds="776,27,248{5,2147483647},692{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Button Text="Public Chat Rooms" FontFamily="Open Sans" Id="7c8e805f-cd21-4c31-adc4-e5a3343d49cc" Panel.Bounds="788,42,225{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="16b8030e-3903-4a6b-98c7-b25600bbd3d4" Created="11/04/2017 10:59:49" Id="9a692bac-940a-4627-9dc9-b326dc955fd7" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Button Text="Log In" FontFamily="Open Sans" Id="fd5a60f5-c6ad-4b49-a829-d3ad82b4b3f1" Panel.Bounds="900,0,124{5,2147483647},27{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Button Text="Log In as Admin" FontFamily="Open Sans" Id="c62fce96-121e-404b-ba85-043f96d349ba" Panel.Bounds="776,0,124{5,2147483647},27{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" Created="11/04/2017 10:36:42" Id="87dce321-a9be-4c0d-bca6-3e6975304def">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cb7005e5-9c6d-4688-bb8d-1ce5ba89e735" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" Created="11/04/2017 10:48:40" Id="7c04fa07-12e7-4fa6-94ab-5fd76f4f8c91">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4b89b0d5-7a50-4a59-8f1c-e92a59a7d441" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Public Chat Rooms" StateGroup="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" ParentScene="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" Created="11/04/2017 10:59:49" Id="16b8030e-3903-4a6b-98c7-b25600bbd3d4">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b04ea74e-dbac-4d60-8591-5eece6db8798">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <ListBox CornerRadius="8" FontSize="36" Id="a7342263-7a3c-49f0-ac1a-67cb7ca2c6ce" Panel.Bounds="106,128,568{5,2147483647},515{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Chat Room #1" Id="f9728903-29c3-4b59-9f28-3edfda5c81d9" />
+                                        <Item Text="Chat Room #2" Id="cb971ba3-62b4-4e3d-a877-8c08f526e751" />
+                                        <Item Text="Chat Room #3" Id="b65cd741-03c4-49ea-a5e3-08bc48d775f0" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <Title RichText="Public chat rooms" Id="88ce5767-6edb-45f3-afe4-6a5a5f9bfcf4" Panel.Bounds="246,66,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" FontFamily="Open Sans" Id="1fa4395e-88b9-4a09-88c1-bff6ca6b575a" Panel.Bounds="568,138,94{16,2147483647},44{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandBack Created="11/04/2017 10:56:36" Id="220be571-68fa-48f7-9d49-397afc662360" />
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" FontFamily="Open Sans" Id="0c16b468-5dd1-4c50-bf43-1d3f12d71112" Panel.Bounds="568,198,94{16,2147483647},44{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandSwitchTo SceneId="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" Created="11/04/2017 10:45:57" Id="3f5be304-70a8-4f9c-9399-ee8cee86d2f3" />
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a41b99d3-800f-4ea4-9cae-21d25e31f33e">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" FontFamily="Open Sans" Id="81db72ed-a0b3-4784-b0ff-37b935420639" Panel.Bounds="568,258,94{16,2147483647},44{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandSwitchTo SceneId="236e6d24-05e9-4f78-be8a-2768a547a2f0" Created="11/04/2017 11:09:03" Id="2a42fc3e-8689-4ee4-90b4-078517abc89b" />
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Join" StateGroup="16b8030e-3903-4a6b-98c7-b25600bbd3d4" ParentScene="16b8030e-3903-4a6b-98c7-b25600bbd3d4" Created="11/04/2017 11:11:40" Id="236e6d24-05e9-4f78-be8a-2768a547a2f0">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0d6f2caf-d9cf-40ae-9e1a-28a343a778b3">
+                    <KeyFrame.Operations>
+                        <Add Property="ItemsControl&lt;TabItem,TabItemEventArgs&gt;.Items" Target="51250a9e-4ff5-42bc-837c-7a6f83ae5464">
+                            <Add.Item>
+                                <TabItem Header="Chat Room #3" IsSelected="True" Id="0133ad92-7aca-445f-99e7-e88fd9f2172a">
+                                    <TabItem.Content>
+                                        <Container ClipToContainer="True" Id="2b906557-84a0-42da-a534-b87fc1949ae1" />
+                                    </TabItem.Content>
+                                </TabItem>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="43b3db8a-cd30-4c0a-bc96-acf4c7858486" />
+                        <Remove Target="a7342263-7a3c-49f0-ac1a-67cb7ca2c6ce" />
+                        <Remove Target="1fa4395e-88b9-4a09-88c1-bff6ca6b575a" />
+                        <Remove Target="88ce5767-6edb-45f3-afe4-6a5a5f9bfcf4" />
+                        <Remove Target="0c16b468-5dd1-4c50-bf43-1d3f12d71112" />
+                        <Remove Target="81db72ed-a0b3-4784-b0ff-37b935420639" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Send" StateGroup="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" ParentScene="f2c8945a-53a0-43f5-a02e-c9f6447abb0d" Created="11/04/2017 11:29:44" Id="908d53fd-b4a4-4150-95b6-27bd2e327486">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="5c12dae9-c5f5-4626-8f0e-f10f644db973">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="07cd480f-1ece-47a1-93c8-519f35fa8eb7" Duration="250">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/comment.screenpart" Id="f227a387-7721-4627-96a9-2a758d452c63" Panel.Bounds="570,300,214,71*">
+                                    <ScreenPartInstance.Customizations>
+                                        <Resize To="193,71" Target="34f70ec0-3eef-49b3-abc6-adc8daf98ab8" />
+                                        <Set Property="Label.RichText" Value="Guest" Target="34d1900a-2015-4ed5-86bb-9da4a26ecfbb" />
+                                        <Set Property="Label.RichText" Value="my comment" Target="4329bb8e-b9bd-4312-8772-f60f19e207a7" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                            <Add.Effect>
+                                <e:Pop />
+                            </Add.Effect>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

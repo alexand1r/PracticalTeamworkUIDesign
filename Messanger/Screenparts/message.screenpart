@@ -1,0 +1,68 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                        Id="3f3bbde1-a7ef-4378-a49e-fc157a437387" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="249" Height="119" Background="#00FFFFFF" Id="c24961a7-ae12-449c-b631-9daba7ddde13">
+            <BorderedContent.Layers>
+                <Layer Id="956ea5ff-486b-4cba-8337-7c59197a50e5" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="845b73bb-06ed-43f3-b516-68e8f80012c9" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="41551678-3c14-45c5-a431-cc02e6f3f990" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="21214812-455a-4335-b6b7-97ad5b6515c7" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/04/2017 12:35:34" Id="615301a2-c63e-43d4-887b-6da7a7812a2c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="626e0e2d-8a6b-44ff-a60f-1f4f6dbbd8c0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <Rectangle CornerRadius="8" Id="12d8bff2-938b-4564-bfc1-80e057e1388d" Panel.Bounds="56,45,193{5,2147483647},74{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <Ellipse Id="7cfb4f7c-e770-48f8-bdff-49d82a2d2f43" Panel.Bounds="14,60,14{5,2147483647},14{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <Image DevicePixelRatio="0.5" Id="b9da78e6-552b-4a1a-a329-015aa5c34099" Panel.Bounds="0,0,40{5,2147483647},40{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <Ellipse Id="29bb7e0d-d96f-44cd-aafb-48420d847201" Panel.Bounds="7,45,10{5,2147483647},10{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;12&quot; FontWeight=&quot;Bold&quot; &gt;RandomUser123&lt;/Run&gt;" FontFamily="Open Sans" Id="7ede7fe2-ba53-4291-b38a-05cc21f84e9a" Panel.Bounds="49,0,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <i:Label RichText="first comment in this chat room" FontFamily="Open Sans" Id="6b67ac51-06b1-4fde-b5e8-7c0385779949" Panel.Bounds="70,57,165{5,2147483647},50{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="956ea5ff-486b-4cba-8337-7c59197a50e5">
+                            <Add.Item>
+                                <Ellipse Id="820cfa8c-c4de-450d-9949-d3f9b5e6722d" Panel.Bounds="28,71,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

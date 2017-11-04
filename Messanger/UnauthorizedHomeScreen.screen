@@ -1,0 +1,107 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="acf9c989-1764-4b9e-bbef-cd3b0b8c15c7">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="02baedd1-8f32-42c2-a550-94ea9df32410">
+            <Content.Layers>
+                <Layer Id="b350a691-ef20-4c4b-bb33-234447ceca51" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="415bc0cd-50f5-4412-b2d0-fb8c811bdd17" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="92c25cbf-ac6f-4e66-ba70-15d3aebb5276" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="dc0c2910-06a7-4242-8bc6-cf6702955b64" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 12:04:45" Id="2951b0fb-8446-4581-897e-ecd954ce11a8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="da24645a-caac-40e4-9c9f-1d500ad9b9a6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="4951d417-b381-40b6-a231-6f9b1def9eca" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Toolbar Id="c6075882-c583-409b-9f10-722ea6781ac7" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Button Text="Sign In/Up" CornerRadius="8" FontFamily="Roboto Condensed" Id="7ac15eea-f9dd-46e1-92f0-db50dd30bc91" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Title RichText="Messanger" FontFamily="Roboto Condensed" Id="acb5df1b-613f-4b59-93ee-a82e408b716d" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Label RichText="Public Chat Rooms" FontSize="16" FontFamily="Roboto Condensed" FontStyle="Underline|Bold" Id="9dfa07b9-0826-447b-b2f4-744f0d16e56c" Panel.Bounds="21,75,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <ListBox BorderThickness="0" FontSize="24" Id="c1a14e5b-3aaf-4404-9493-bffb110df0d7" Panel.Bounds="15,110,329{5,2147483647},453{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Chat Room #1" Id="1c29d568-3700-4bcd-9c3b-e989c28d604e" />
+                                        <Item Text="Chat Room #2" Id="940dcac1-5105-4385-acad-d6fd47a7a677" />
+                                        <Item Text="Chat Room #3" Id="b199200e-f8c1-4497-88b1-8650ecdf1cca" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="559f50b1-be02-49ff-a32e-fa48b75ffd9c" Panel.Bounds="261,117,80{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedChatScreen.screen" Created="11/04/2017 12:39:27" Id="9f8d0b60-d026-47b8-b05e-81c68b743ae3">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="7df73711-1fad-427d-8b70-da6834e59739" Panel.Bounds="261,160,80{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedChatScreen.screen" Created="11/04/2017 12:39:33" Id="082aee19-27f2-4dff-b996-e99899797d7b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="b2c62d21-97d4-4cf7-9e24-22628b18c6ba" Panel.Bounds="261,203,80{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedChatScreen.screen" Created="11/04/2017 12:39:38" Id="491acc7a-e092-42ae-a693-a4a79c4cdaff">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
