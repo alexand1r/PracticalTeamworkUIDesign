@@ -1,0 +1,38 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="a7307a8d-32f1-4384-a928-844f727d4b7c" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="104" Height="30" Background="#00FFFFFF" Id="8bc4fe2f-7426-41a6-bda7-071874286d10">
+            <BorderedContent.Layers>
+                <Layer Id="a95327c0-ee3e-44d6-83fe-0fd0600a3778" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="27b6a959-d6d3-4183-9306-3a6f33267abb" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="3d876a53-0f4b-4556-a998-166ad21204cb" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="d8429494-0116-4c37-b649-1fd9038ea004" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/04/2017 15:27:40" Id="c0a07ed9-2caa-4cb6-af93-e576c779e356">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d5bcf3f1-c414-40f7-b9d5-32ed26ea438f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a95327c0-ee3e-44d6-83fe-0fd0600a3778">
+                            <Add.Item>
+                                <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="e37ae22c-3eca-4539-a647-7a632a9ff6af" Panel.Bounds="0,0,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

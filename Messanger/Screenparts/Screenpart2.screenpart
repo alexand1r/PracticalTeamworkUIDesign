@@ -1,0 +1,46 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="270b6f24-c0dc-4ce3-b6d5-224b75f49e46" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="104" Height="30" Background="#00FFFFFF" Id="8a10bb92-ccca-4dbc-8c1a-a8777bdf154e">
+            <BorderedContent.Layers>
+                <Layer Id="9009ce66-9fc9-4e95-b90a-194a48a0d2cf" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e6bdf2fb-8dd0-4017-8f16-310989ee5d86" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="f0848439-17ad-40c1-8359-7e3eb9a0a4f2" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="6e23ecb3-1793-4789-b51d-c0bd5bf2b781" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/04/2017 16:14:00" Id="41b103fb-afcd-4690-b186-e9a8852b9d2a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8370dc47-9744-4a05-bf8e-8352d7d27be1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9009ce66-9fc9-4e95-b90a-194a48a0d2cf">
+                            <Add.Item>
+                                <i:Button Text="Sign out" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="b21271a2-aaca-4830-bdbb-75521ec6fc5f" Panel.Bounds="0,0,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 15:52:46" Id="55eae16f-3dd8-4258-b3f7-506a0d3fe81b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

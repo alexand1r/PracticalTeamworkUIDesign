@@ -1,0 +1,38 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="5803e0d2-bef5-4c44-9249-cb81b91e9de1" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="68" Height="22" Background="#00FFFFFF" Id="3426cfe9-d81f-4d95-91ea-336de1c516ee">
+            <BorderedContent.Layers>
+                <Layer Id="43ae4aba-8344-427f-977d-64c4b2555768" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c78327f1-c8d8-4875-810b-ca2bbbb83a25" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="1d987374-90b0-446d-b589-84bcd048cc64" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="0642df16-bdba-4673-aca5-ab58d15eb164" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/04/2017 16:10:11" Id="89007560-2d68-4146-9959-2e6cde8aaea3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="dbee08ae-ed00-4047-9961-b55bac5ad372">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="43ae4aba-8344-427f-977d-64c4b2555768">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="89935fff-9598-4b2e-9645-ba64c7c1acae" Panel.Bounds="0,0,68{40,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

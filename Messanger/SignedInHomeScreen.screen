@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                   Id="84de0f56-9965-4d7b-a2e8-d7ff2b45cf99">
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="84de0f56-9965-4d7b-a2e8-d7ff2b45cf99">
     <Page.Content>
         <Content Width="375" Height="647" Id="aca7ef95-f6a3-446f-9501-c41244befd66">
             <Content.Layers>
@@ -138,7 +138,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
                             <Add.Item>
-                                <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="e37ae22c-3eca-4539-a647-7a632a9ff6af" Panel.Bounds="144,6,104{16,2147483647},30{16,2147483647}" />
+                                <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="e37ae22c-3eca-4539-a647-7a632a9ff6af" Panel.Bounds="144,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/Profile.screen" Created="11/04/2017 15:26:35" Id="3b017ff4-8b5f-4afb-a45e-ae8ed6285aa5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
@@ -164,6 +172,40 @@
                                 </i:Button>
                             </Add.Item>
                         </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="7dbc0b23-c405-4f41-8937-ecdca2c041e5" Created="11/04/2017 15:26:26" Id="83d38bce-03e4-485a-b488-df16a01ff241">
+            <Scene.KeyFrames>
+                <KeyFrame Id="269c8072-891d-43c4-acfa-335416f0ac24" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="7dbc0b23-c405-4f41-8937-ecdca2c041e5" ParentScene="7dbc0b23-c405-4f41-8937-ecdca2c041e5" Created="11/04/2017 15:27:05" Id="5756da9d-1411-422b-a804-2b4b5fbb5231">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c59afdec-227a-4e0a-8bbc-ca46aadf5199">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="446a6871-223b-48a8-bb2e-0fd991aaeaeb" Panel.Bounds="144,6,0*,0*">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="e37ae22c-3eca-4539-a647-7a632a9ff6af">
+                                            <Add.Item>
+                                                <CommandBack Created="11/04/2017 16:22:07" Id="181b3442-894c-4aaf-8ed2-fefa87ac0ff0" />
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                    <ScreenPartInstance.Click>
+                                        <CommandNavigate Screen="/Profile.screen" Created="11/04/2017 16:20:11" Id="8dfd447e-6778-4f62-92eb-43968ec2d5ec">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="e37ae22c-3eca-4539-a647-7a632a9ff6af" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
