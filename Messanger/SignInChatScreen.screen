@@ -1,0 +1,120 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="4e3de34b-27d2-47bb-8a5a-ae7596eef21c">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="d4f82357-130c-4465-94e4-20c5c4d2febc">
+            <Content.Layers>
+                <Layer Id="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="73ddeede-3ea4-4dcc-9beb-54b31b8031a2" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="c6e63207-f05a-4408-a223-130b12b9f333" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="a37f4527-a11b-4fee-96b8-18bde4ef6823" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 18:30:43" Id="d77c6f63-29c2-47aa-a2eb-5f1b07210ead">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d3f9c5a5-28ea-4a08-a132-8960795a379d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="3b9faf52-722e-4568-bd59-1c47fff73641" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Title RichText="Messanger" FontFamily="Roboto Condensed" Id="fe8032ec-f638-45fc-917b-6a22f7eeec45" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="7e486e32-53c6-43de-9713-6bae48721621" Panel.Bounds="144,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/Profile.screen" Created="11/04/2017 18:43:08" Id="4863d35f-f4ae-4f36-8a3b-12a48cce3768">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Button Text="Sign out" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="ab524793-8c06-46fd-95c8-8202a32c730e" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 18:43:43" Id="34d59b8f-855d-41ea-8150-b03b191467ee">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <ContainerBox Background="#FFAFDAE6" Id="9de0b92a-8883-4dba-bcc7-1d4bfedf01a1" Panel.Bounds="29,71,309{5,2147483647},499{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="8c801ad0-ca0c-4ca0-94b8-338644ebc3d3" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Label RichText="Kiro:" FontFamily="Open Sans" Id="bdca3a5d-f78d-420d-8422-92042e22dbb4" Panel.Bounds="289,112,32{5,2147483647},20*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:TextArea Background="#FFA3E0AB" FontFamily="Open Sans" Id="d6c0cb23-b796-410f-bccd-39ac5cccad1e" Panel.Bounds="158,151,163{22,2147483647},41{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Label RichText="Hello mates" FontFamily="Open Sans" Id="c6eed0ac-8761-4fc4-8ac6-a23e1d486717" Panel.Bounds="189,159,80{5,2147483647},20*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Label RichText="10:12" FontSize="10" FontFamily="Open Sans" Id="8a294fea-61f6-4456-8a9e-2d0921ced859" Panel.Bounds="289,162,26{5,2147483647},14{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:TextField Text="Hello" FontFamily="Open Sans" Id="bc3b00d5-c04a-418c-8000-5fc671e51193" Panel.Bounds="60,502,251{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:Button Text="Send" Background="#FF4281D0" Foreground="#FF000000" FontFamily="Open Sans" Id="7ac9a245-145a-422c-9ba7-214913aad889" Panel.Bounds="235,502,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="659f93e8-0ce1-4fcc-87c9-3db8fe0453f0">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="e500010b-9bbb-4c9d-87bc-6306625e2bf4" Panel.Bounds="270,597,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/SignedInHomeScreen.screen" Created="11/04/2017 18:44:03" Id="7003b9f2-cf67-417a-97d3-357ba6c0eb72">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
