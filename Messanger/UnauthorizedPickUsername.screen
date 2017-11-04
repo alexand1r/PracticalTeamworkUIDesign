@@ -1,0 +1,101 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="abd4338b-73e8-40ab-9d5d-eb5fb4f68feb">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="43e710b4-0cae-4127-b9c7-8dec96bd0979">
+            <Content.Layers>
+                <Layer Id="d824d976-938d-46cd-aba3-0be417347e83" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="3f4d1b46-b412-40a9-bb0c-8e47a0535b5e" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="f82e7271-5662-483d-b089-96886c25edb9" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="3ba14535-7829-4150-927f-7d2724c83927" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 13:26:16" Id="879adb05-0711-4379-af7c-353694e50bf5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="443274f3-34a5-4a92-ad5a-01953b2e3b83">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="1df0e304-3b01-470a-abb3-4857b23677dd" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Toolbar Id="c44077ec-5320-422a-9328-b0edee6ff040" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Button Text="Cancel" Background="#FFE2E2E2" CornerRadius="8" FontFamily="Roboto Condensed" Id="e2948143-fd1b-478a-b5e1-beb5b3ae1825" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 13:42:29" Id="26907880-b1af-45e3-8afc-37a6f2b3dc08">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Title RichText="Sigb in" FontFamily="Roboto Condensed" Id="bcebb492-d48f-4ac0-ae50-656cbca66709" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Title RichText="Continue unregistered" FontSize="24" FontFamily="Open Sans" Id="ba0988b7-2906-4187-9e0a-ed773368657e" Panel.Bounds="69,171,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Label RichText="Type in your username." FontFamily="Open Sans" Id="59cc8fe2-6d8b-4d8c-add1-dbf685fbb976" Panel.Bounds="110,206,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Username" FontFamily="Open Sans" Id="e0b631c2-8ffe-4e9e-b216-7fafd84a6d0a" Panel.Bounds="69,286,236{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Button Text="Continue" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="02e732ef-dcbc-4cdb-b29a-7029730ea138" Panel.Bounds="71,372,233{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 13:42:17" Id="a703dbdc-9c91-4ad1-9ece-7814efb23131">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d824d976-938d-46cd-aba3-0be417347e83">
+                            <Add.Item>
+                                <i:Link Text="Want to save your usernamet? Sign Up here." Foreground="#FF4281D0" FontFamily="Open Sans" Id="e0de5e49-ba2f-4a48-9b45-7f32055e8804" Panel.Bounds="52,496,5*{5,2147483647},5*{5,2147483647}">
+                                    <i:Link.Click>
+                                        <CommandNavigate Screen="/SignUpScreen.screen" Created="11/04/2017 13:42:07" Id="826d7e85-e272-4e90-8f34-ffd2dafebade">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Link.Click>
+                                </i:Link>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

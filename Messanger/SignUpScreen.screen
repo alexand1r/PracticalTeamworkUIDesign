@@ -1,0 +1,98 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="3a3f0c7b-d615-43e1-b8cf-7a8aa7436d10">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="8104aa60-b926-4a9a-b931-34b7db71a95a">
+            <Content.Layers>
+                <Layer Id="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c6f732f1-7b1b-4c40-9184-b298aae01bc4" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="c951c434-466b-48e1-9dfc-1f2e559c0d93" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="acddabc7-e22b-4bbb-a549-209ff14cbe17" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 13:27:59" Id="81884736-9a9e-438c-b520-49a076d6229f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="43498d3e-b5aa-4af3-9f95-b2fd20a724a7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="aa7f0fbf-433e-456a-8f8b-41b1baf24741" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Toolbar Id="03c2bd71-ac50-40a5-bf5f-69595e597feb" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Button Text="Cancel" Background="#FFE2E2E2" CornerRadius="8" FontFamily="Roboto Condensed" Id="bbf1096b-0819-4d24-b5bc-3ec50193cf1a" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 13:31:38" Id="ba9da920-8205-4bc4-a0cd-396254a1865b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Title RichText="Sign up" FontFamily="Roboto Condensed" Id="7dc02066-bf38-4ed7-ad92-e2c94917d4e1" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Title RichText="Sign up to Messingert" FontSize="24" FontFamily="Open Sans" Id="36e2f72d-5b9b-4a0b-bd99-eea68e3cac1b" Panel.Bounds="58,171,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Label RichText="Type in your e-mail, usernam and password." FontFamily="Open Sans" Id="3ad501b5-f76c-40c2-9fad-3832eb3bd9c7" Panel.Bounds="42,206,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Username" FontFamily="Open Sans" Id="28353f25-7f52-498d-b8eb-47ebd1fc9ce7" Panel.Bounds="69,286,236{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:PasswordField WatermarkText="Password" FontFamily="Open Sans" Id="275e62d1-cbc4-4195-bbe5-c950f0ee3d46" Panel.Bounds="69,329,236{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:Button Text="Sign up" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="03dd517a-5cad-4309-8c77-ac5f1f83bc7b" Panel.Bounds="71,372,233{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/SignedInHomeScreen.screen" Created="11/04/2017 13:31:55" Id="32340dee-1633-4541-a85a-9af3b59be7a8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1b0495ed-aa6d-4c72-a6cd-76b1c1d79bb1">
+                            <Add.Item>
+                                <i:TextField WatermarkText="E-mail" FontFamily="Open Sans" Id="42929468-d23c-4719-8306-c0d0fe05b45e" Panel.Bounds="69,243,236{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

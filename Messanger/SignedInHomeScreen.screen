@@ -1,0 +1,147 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="84de0f56-9965-4d7b-a2e8-d7ff2b45cf99">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="aca7ef95-f6a3-446f-9501-c41244befd66">
+            <Content.Layers>
+                <Layer Id="9ada1637-0e61-451a-9c80-5be01715b5c8" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ae23c692-dd22-49cb-ab31-291a3307ef44" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="52fecfa7-720b-4b95-8f12-bf81d3e8ad05" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="843f8f4f-78c6-4938-858d-80711dd2dc4f" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 13:14:07" Id="7dbc0b23-c405-4f41-8937-ecdca2c041e5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d53b540d-d63c-4fa2-b839-26515742072f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="920afe02-38e2-4f2f-a8e4-2a3964bf3ba9" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Toolbar Id="b1cef88b-b731-4d13-ad05-45e8fd17ae18" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Log out" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="85c7038d-0a14-4211-be2e-6d9afb9411ca" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Title RichText="Messanger" FontFamily="Roboto Condensed" Id="4a2246bb-610c-4414-95d3-695c7697c8a8" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Label RichText="Public Chat Rooms" FontSize="16" FontFamily="Roboto Condensed" FontStyle="Underline|Bold" Id="beb9a2da-caf5-4114-b165-778d0bf5a599" Panel.Bounds="21,75,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <ListBox BorderThickness="0" FontSize="24" Id="977ed1a3-be7a-4b29-8533-09fc4c2f45ca" Panel.Bounds="15,110,329{5,2147483647},453{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Chat Room #1" Id="a05f5a68-5cbc-4ed2-9577-e5c8c0a61422" />
+                                        <Item Text="Chat Room #2" Id="2b010918-75d0-4d1f-a7e3-6b375f937ab9" />
+                                        <Item Text="Chat Room #3" Id="ce168c7e-d21b-4338-a598-1cd3dc526506" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="f947e3a1-fa45-424f-875b-555966eecb0f" Panel.Bounds="261,117,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="0c5ee133-1ec1-4eb4-a829-539163ab5bee" Panel.Bounds="261,160,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="9499ec9f-d3c9-4c23-a621-5c6ee579f4dd" Panel.Bounds="261,203,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="11ed85ed-099e-4df3-b47c-eb280dbd0d53" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Toolbar Id="5bfefb37-7df6-4154-83e2-a652ed436160" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Sign out" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="6a3f0b51-6840-40e3-9265-d991fc5e69ec" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/UnauthorizedHomeScreen.screen" Created="11/04/2017 13:19:53" Id="90430122-fbb0-488b-833d-b5ccba11bca2">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Title RichText="Messanger" FontFamily="Roboto Condensed" Id="c60df361-63a1-4f1c-a8e5-ccaa224f2e23" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Label RichText="Public Chat Rooms" FontSize="16" FontFamily="Roboto Condensed" FontStyle="Underline|Bold" Id="51db39f7-ff93-422c-a4b8-c5982a63b7a2" Panel.Bounds="21,75,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <ListBox BorderThickness="0" FontSize="24" Id="2a10cf4f-e091-4cf8-87ee-2bc2cef164c8" Panel.Bounds="15,110,329{5,2147483647},453{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Chat Room #1" Id="4662e77f-92e0-428a-ad14-cd4eae58d0a6" />
+                                        <Item Text="Chat Room #2" Id="46826762-6892-463c-a703-cc8bfc33cffb" />
+                                        <Item Text="Chat Room #3" Id="6f6dce98-a050-4f0c-8b61-2e47f5efae10" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="f5ae6917-c9fc-49f5-a9de-c26705b71d53" Panel.Bounds="261,117,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="13f528f3-cdd3-4d75-b161-df368f096e0d" Panel.Bounds="261,160,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="86200fa9-c362-40d6-a181-e1b5bd58b7f6" Panel.Bounds="261,203,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="e37ae22c-3eca-4539-a647-7a632a9ff6af" Panel.Bounds="144,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
