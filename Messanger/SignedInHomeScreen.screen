@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                Id="84de0f56-9965-4d7b-a2e8-d7ff2b45cf99">
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="84de0f56-9965-4d7b-a2e8-d7ff2b45cf99">
     <Page.Content>
         <Content Width="375" Height="647" Id="aca7ef95-f6a3-446f-9501-c41244befd66">
             <Content.Layers>
@@ -162,7 +162,7 @@
                             <Add.Item>
                                 <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="09c7bea5-2fe3-49f2-b8eb-c3efcf41f1cc" Panel.Bounds="261,292,80{16,2147483647},30{16,2147483647}">
                                     <i:Button.Click>
-                                        <CommandSwitchTo SceneId="99b5f9af-217d-4f83-b94a-3eb5407d22dc" Created="11/04/2017 18:45:41" Id="8f3441d1-8ef3-4cf9-a85c-823fd3f7d1bc" />
+                                        <CommandSwitchTo SceneId="d364b849-de24-44d5-93ad-7798e7f22e35" Created="11/04/2017 18:45:41" Id="049e2e2b-7c27-402d-a4ce-221262fd743e" />
                                     </i:Button.Click>
                                 </i:Button>
                             </Add.Item>
@@ -277,6 +277,15 @@
                                 </CommandNavigate>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="2321247f-d56f-424e-bb76-4a334473a6c1" Panel.Bounds="276,398,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandSwitchTo SceneId="921a9ad0-23e0-4dd8-9384-bc5deb25b755" Created="11/04/2017 19:27:47" Id="5938c3e6-9530-414d-85cf-f4fb79cf5975" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
                         <Set Property="Control.Opacity" Value="1" Target="51db39f7-ff93-422c-a4b8-c5982a63b7a2" />
                         <Set Property="Control.IsVisible" Value="False" Target="51db39f7-ff93-422c-a4b8-c5982a63b7a2" />
                         <Set Property="Control.IsVisible" Value="False" Target="beb9a2da-caf5-4114-b165-778d0bf5a599" />
@@ -284,11 +293,61 @@
                         <Set Property="Control.IsVisible" Value="False" Target="13f528f3-cdd3-4d75-b161-df368f096e0d" />
                         <Set Property="Control.IsVisible" Value="False" Target="86200fa9-c362-40d6-a181-e1b5bd58b7f6" />
                         <Move To="264,117" Target="26aa2e5d-d648-471e-9ef4-df1b69e66655" />
-                        <Move To="264,154" Target="09c7bea5-2fe3-49f2-b8eb-c3efcf41f1cc" />
                         <Remove Target="cbb2a9e2-9324-4f3f-bd82-ce1be6feba06" />
                         <Remove Target="4662e77f-92e0-428a-ad14-cd4eae58d0a6" />
                         <Remove Target="46826762-6892-463c-a703-cc8bfc33cffb" />
                         <Remove Target="6f6dce98-a050-4f0c-8b61-2e47f5efae10" />
+                        <Remove Target="dcdd422e-c1e6-4b5e-a0ff-0c701e5dc987" />
+                        <Remove Target="09c7bea5-2fe3-49f2-b8eb-c3efcf41f1cc" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Join" StateGroup="7dbc0b23-c405-4f41-8937-ecdca2c041e5" ParentScene="7dbc0b23-c405-4f41-8937-ecdca2c041e5" Created="11/04/2017 19:29:34" Id="d364b849-de24-44d5-93ad-7798e7f22e35">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9b376679-0fb7-483d-8322-f4e995c72278">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Title RichText="Password required" FontFamily="Open Sans" Id="bce0ed1f-8325-45d7-99dd-904b05011a7b" Panel.Bounds="10,240,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:PasswordField FontFamily="Open Sans" Id="7236a6e4-9d3a-4b83-9846-92da62560e7e" Panel.Bounds="184,237,170{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Enter chat" Background="#FFD1F0D5" CornerRadius="8" FontFamily="Open Sans" Id="4fda256e-e2c5-434d-ad99-45d996fb0fbd" Panel.Bounds="236,303,108{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/SignInChatScreen.screen" Created="11/04/2017 19:31:54" Id="8e994a4b-8036-4e55-96ad-0cdd42f79d8b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="14c44514-f083-44c5-a5c9-33023ea1ffdb" Panel.Bounds="276,398,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandSwitchTo SceneId="7dbc0b23-c405-4f41-8937-ecdca2c041e5" Created="11/04/2017 19:32:10" Id="e605526c-0d86-4d2e-ae44-2bd591ceec64" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Move To="264,117" Target="09c7bea5-2fe3-49f2-b8eb-c3efcf41f1cc" />
+                        <Remove Target="f5ae6917-c9fc-49f5-a9de-c26705b71d53" />
+                        <Remove Target="4662e77f-92e0-428a-ad14-cd4eae58d0a6" />
+                        <Remove Target="46826762-6892-463c-a703-cc8bfc33cffb" />
+                        <Remove Target="6f6dce98-a050-4f0c-8b61-2e47f5efae10" />
+                        <Remove Target="c5bee2cd-89d1-423d-b8aa-cd2ed62fd682" />
+                        <Remove Target="13f528f3-cdd3-4d75-b161-df368f096e0d" />
+                        <Remove Target="86200fa9-c362-40d6-a181-e1b5bd58b7f6" />
+                        <Remove Target="26aa2e5d-d648-471e-9ef4-df1b69e66655" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
