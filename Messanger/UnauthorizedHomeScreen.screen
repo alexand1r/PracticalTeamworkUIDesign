@@ -36,7 +36,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
                             <Add.Item>
-                                <i:Button Text="Sign In/Up" CornerRadius="8" FontFamily="Roboto Condensed" Id="7ac15eea-f9dd-46e1-92f0-db50dd30bc91" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}" />
+                                <i:Button Text="Sign In/Up" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="7ac15eea-f9dd-46e1-92f0-db50dd30bc91" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/LoginScreen.screen" Created="11/04/2017 12:56:45" Id="bb6ebde5-4cbf-4901-8cdd-d4ab61b9a07c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b350a691-ef20-4c4b-bb33-234447ceca51">
