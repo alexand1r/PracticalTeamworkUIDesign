@@ -115,6 +115,8 @@
                                         <Item Text="Chat Room #1" Id="4662e77f-92e0-428a-ad14-cd4eae58d0a6" />
                                         <Item Text="Chat Room #2" Id="46826762-6892-463c-a703-cc8bfc33cffb" />
                                         <Item Text="Chat Room #3" Id="6f6dce98-a050-4f0c-8b61-2e47f5efae10" />
+                                        <Item Text="Private Chat #1" Id="c5bee2cd-89d1-423d-b8aa-cd2ed62fd682" />
+                                        <Item Text="Private Chat #2" Id="dcdd422e-c1e6-4b5e-a0ff-0c701e5dc987" />
                                     </ListBox.Items>
                                 </ListBox>
                             </Add.Item>
@@ -137,6 +139,29 @@
                         <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
                             <Add.Item>
                                 <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="e37ae22c-3eca-4539-a647-7a632a9ff6af" Panel.Bounds="144,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="26aa2e5d-d648-471e-9ef4-df1b69e66655" Panel.Bounds="261,248,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Join" Background="#FFD1F0D5" CornerRadius="8" BorderThickness="0" FontFamily="Open Sans" Id="09c7bea5-2fe3-49f2-b8eb-c3efcf41f1cc" Panel.Bounds="261,292,80{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Create new room" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="dfb45ead-5a06-4abb-8563-8d7bdc899e57" Panel.Bounds="7,609,136{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/CreateNewChatRoom.screen" Created="11/04/2017 14:31:52" Id="ed860316-fc36-40e7-a5ff-18e236bba1cc">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

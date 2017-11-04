@@ -1,0 +1,147 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="4b312309-e6f9-465d-a801-4c716228fb16">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="0fb82285-6620-42cb-8b3a-745d33854128">
+            <Content.Layers>
+                <Layer Id="c1d46d46-f88c-4c05-8f6d-b2d83969956b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="f70d0dd4-fce3-41f6-8531-f43d628826fc" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="6cd6fafd-de6f-4e57-bfa0-e8668baa0c93" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="4b1b07b1-87c9-4b38-a5d4-e0943a68576a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 14:31:52" Id="0121fa5b-ca05-4b7c-bffb-a996f3b973be">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8f4ce492-c4f7-43d4-a2c6-d9572056caed">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="209d5bc7-3d11-4748-9f45-bab84636f7d0" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Toolbar Id="8f43f3dc-18fa-46d8-9525-0a76cb4992ca" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Button Text="Log out" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="a2e63905-0b56-4de4-aacf-434a604ea158" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Title RichText="Messanger" FontFamily="Roboto Condensed" Id="9d8f410a-24e1-48e6-bbb2-75eb5b4bc3de" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Roboto Condensed" Id="7a9ac197-8ce9-4ec9-922d-662c89bc0534" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Toolbar Id="bba3c66b-8883-4015-be5a-863ed582a277" Panel.Bounds="0,602,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Button Text="Sign out" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="4144be0c-26ee-4bfd-a6eb-489d1525bfda" Panel.Bounds="264,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Title RichText="New chat room" FontFamily="Roboto Condensed" Id="4c60bb2b-3319-4d4e-9933-9d5cdbb72e0d" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Button Text="Profile" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="4ddf3bd0-1d7d-475e-8301-2af8b311f69e" Panel.Bounds="144,6,104{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Button Text="Cancel" Background="#FFE2E2E2" CornerRadius="8" Foreground="#FF4281D0" FontFamily="Roboto Condensed" Id="2b24c152-c302-4d1e-b54f-f86dda745e7c" Panel.Bounds="7,609,136{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandBack Created="11/04/2017 14:42:25" Id="e4a48442-b10f-4ed9-9c78-dd0283550db3" />
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:TextField FontFamily="Open Sans" Id="6682d419-02a1-4ab3-8b8d-995f158539cf" Panel.Bounds="56,130,262{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Title RichText="Chat room name:" FontFamily="Open Sans" Id="e560bb68-abd4-496f-bb5b-dcac0bab50db" Panel.Bounds="56,99,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <OptionGroup Id="9ae11b73-75a4-406f-bbe4-4ff0b6f77c43" Panel.Bounds="56,175,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Public" Id="62a945f6-dd66-4969-8609-ae9bf283aa41">
+                                            <Option.Selected>
+                                                <CommandSwitchTo SceneId="e7abdb46-6997-49f0-9fce-41ddfbee25d3" AutoRevertEvent="Option.Unselected" Created="11/04/2017 14:37:28" Id="2f1a35fc-b2d7-4d90-8dc3-858757a104e7" />
+                                            </Option.Selected>
+                                        </Option>
+                                        <Option Text="Private" IsSelected="True" Id="c08520f1-83ea-4d0a-9ecf-d14f67112e2e" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Title RichText="Password:" FontFamily="Open Sans" Id="e3d78dd0-1c71-4e93-afa2-945c6d8b150e" Panel.Bounds="56,220,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:PasswordField FontFamily="Open Sans" Id="4155db4f-ea53-46b9-bc1d-72bb59e2e18f" Panel.Bounds="56,259,262{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Button Text="Create" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="d125b331-47f9-4669-b473-cfa9cfee1fab" Panel.Bounds="232,609,136{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Public" ParentScene="0121fa5b-ca05-4b7c-bffb-a996f3b973be" Created="11/04/2017 14:37:28" Id="e7abdb46-6997-49f0-9fce-41ddfbee25d3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="71204fd2-d607-4eec-aa93-644230ed8da5">
+                    <KeyFrame.Operations>
+                        <Add Property="Option.Selected" Target="c08520f1-83ea-4d0a-9ecf-d14f67112e2e">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="0121fa5b-ca05-4b7c-bffb-a996f3b973be" AutoRevertEvent="Option.Unselected" Created="11/04/2017 14:38:09" Id="e40ba052-6863-4747-ab56-0e3ef50bcbae" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
+                            <Add.Item>
+                                <i:Button Text="Create" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="73c64a06-e269-4c28-8cff-980a6bf0aa6f" Panel.Bounds="232,609,136{16,2147483647},30{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Control.IsVisible" Value="False" Target="e3d78dd0-1c71-4e93-afa2-945c6d8b150e" />
+                        <Set Property="Control.IsVisible" Value="False" Target="4155db4f-ea53-46b9-bc1d-72bb59e2e18f" />
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="62a945f6-dd66-4969-8609-ae9bf283aa41" />
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="c08520f1-83ea-4d0a-9ecf-d14f67112e2e" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
