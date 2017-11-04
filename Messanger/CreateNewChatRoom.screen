@@ -114,7 +114,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
                             <Add.Item>
-                                <i:Button Text="Create" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="d125b331-47f9-4669-b473-cfa9cfee1fab" Panel.Bounds="232,609,136{16,2147483647},30{16,2147483647}" />
+                                <i:Button Text="Create" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="d125b331-47f9-4669-b473-cfa9cfee1fab" Panel.Bounds="232,609,136{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/SignedInHomeScreen.screen" Created="11/04/2017 14:57:28" Id="7bbe1648-babb-4f0e-8acc-a71c8d856e16">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
@@ -132,7 +140,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="c1d46d46-f88c-4c05-8f6d-b2d83969956b">
                             <Add.Item>
-                                <i:Button Text="Create" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="73c64a06-e269-4c28-8cff-980a6bf0aa6f" Panel.Bounds="232,609,136{16,2147483647},30{16,2147483647}" />
+                                <i:Button Text="Create" Background="#FF4281D0" CornerRadius="8" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="73c64a06-e269-4c28-8cff-980a6bf0aa6f" Panel.Bounds="232,609,136{16,2147483647},30{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/SignedInHomeScreen.screen" Created="11/04/2017 14:57:55" Id="77c9e89d-9659-4ef5-9bbd-01a0fbddeb72">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
                             </Add.Item>
                         </Add>
                         <Set Property="Control.IsVisible" Value="False" Target="e3d78dd0-1c71-4e93-afa2-945c6d8b150e" />
