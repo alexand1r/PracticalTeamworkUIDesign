@@ -1,10 +1,10 @@
-# PracticalTeamworkUIDesign
+﻿# PracticalTeamworkUIDesign
 
 Contributors:
 	Александър Ангелов - alecc,
 	Димитър Петров - ,
 	Тодор Ченков - joto_to,
-	Йоханес Богосян - 
+	Йоханес Богосян - karabinata
 	
 Provide the following functionality to all visitors (without authentication):
   * Send messages anonymously under a nickname
