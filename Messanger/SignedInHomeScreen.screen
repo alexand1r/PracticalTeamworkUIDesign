@@ -180,6 +180,19 @@
                                 </i:Button>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="9ada1637-0e61-451a-9c80-5be01715b5c8">
+                            <Add.Item>
+                                <i:Button Text="Back to LogIn Screen" Background="#FFFDE8D6" FontFamily="Open Sans" Id="5b53b804-8aa3-40aa-8e8c-8ee27845e386" Panel.Bounds="72,418,254{16,2147483647},39{16,2147483647}">
+                                    <i:Button.Click>
+                                        <CommandNavigate Screen="/LoginScreen.screen" Created="11/07/2017 14:24:23" Id="1d07545a-edd0-4aae-b103-c9706899e958">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Button.Click>
+                                </i:Button>
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

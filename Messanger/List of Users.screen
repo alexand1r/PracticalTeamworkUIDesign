@@ -1,0 +1,90 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="0977e005-a573-4b09-94d6-1c2de1902959">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="9b573e69-13c0-48d9-ba7c-648c58c32fd7">
+            <Content.Layers>
+                <Layer Id="e160697c-34d7-4670-b6eb-2876c34032f3" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e5ee7a3c-4658-4a9a-b4de-130b3f6f45fd" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="465bdc1c-8600-4067-92c5-d7b79ec13e64" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="8ac24899-f2f0-488c-a968-2b32bb8741b0" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/07/2017 13:35:28" Id="b0b014bf-519f-45ca-9e0a-6d91d594422a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="52dbb2e6-0827-444c-9d2f-13634bea8d71">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="e160697c-34d7-4670-b6eb-2876c34032f3">
+                            <Add.Item>
+                                <i:Header Text="Administrator's List of Messager's Users" Background="#FFBCD290" FontSize="16" FontFamily="Open Sans" Id="14195011-81e7-4924-af09-2ece14d11d24" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e160697c-34d7-4670-b6eb-2876c34032f3">
+                            <Add.Item>
+                                <ListBox FontSize="18" Id="e1aae58f-dedb-426c-bc52-59516d406263" Panel.Bounds="49,164,268{5,2147483647},200{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Minko Minkov" Id="b38c8344-8ed2-4230-86e0-835efd7367e9">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/Profile.screen" Created="11/07/2017 13:47:59" Id="aee0462c-02ee-427e-b552-0f8660ba1db0">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Dinko Dinkov" Id="d662a7b8-f743-486e-807b-13a06bf9af9a">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/Profile.screen" Created="11/07/2017 13:48:40" Id="901f1694-6914-434f-af07-59de3831c024">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Lilko Lilkov" Id="cdab547f-be67-4e2d-a380-5720c90d61aa">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/Profile.screen" Created="11/07/2017 13:48:55" Id="a0cb6dd7-dd7d-426c-88b5-5397849bddf2">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e160697c-34d7-4670-b6eb-2876c34032f3">
+                            <Add.Item>
+                                <Title RichText="List of Users" FontFamily="Open Sans" Id="e3f0d20a-6b5d-48ad-ac94-6dad380208d6" Panel.Bounds="49,79,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e160697c-34d7-4670-b6eb-2876c34032f3">
+                            <Add.Item>
+                                <Button Text="Back to Previous Screen" Background="#FFFFFF55" FontSize="21" FontFamily="Open Sans" Id="2a7efe2c-88d6-4a82-97ad-75b18f5d663f" Panel.Bounds="56,461,254{5,2147483647},53{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Administrator Intro Screen.screen" Created="11/07/2017 13:53:57" Id="44d9cc7f-9ec0-437e-9b31-fa47171a5326">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

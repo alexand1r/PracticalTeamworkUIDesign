@@ -1,0 +1,99 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="dc4798a5-b8ff-4c66-b1a2-1a2f5d0615c3">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="e7e883b7-a979-4975-a65a-afb8167ee08e">
+            <Content.Layers>
+                <Layer Id="90b86a90-3c86-4b10-9022-a9f8a34af36d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="42cf023f-4747-4170-a532-e10e0063d611" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="c3ce5fc0-be32-48e9-a66c-0dfdaded9081" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1c41d31c-082a-481e-813e-dc9d9a04aee5" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/07/2017 13:01:14" Id="95f341a6-215a-4527-8fae-458b308167e8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="819e760f-655f-439a-9504-a9594d13638b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <i:Header Text="Messager's Administrator Screen" FontSize="16" FontFamily="Open Sans" Id="6fe211eb-b992-493f-93af-97babe865089" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <i:Title RichText="My profile" FontFamily="Open Sans" Id="b5d5f686-69fb-49e2-86a8-db991000559d" Panel.Bounds="134,119,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <i:Label RichText="Administrator action options:" FontFamily="Open Sans" Id="e6997700-134c-4ec7-b33b-73057da4cfd9" Panel.Bounds="76,176,219{5,2147483647},20*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <Button Text="Go Back ti Previous Screen" FontFamily="Open Sans" Id="01c0abd2-b5cc-474d-b3f2-600ebeb1d62e" Panel.Bounds="62,548,212{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/LoginScreen.screen" Created="11/07/2017 13:27:07" Id="ad4966e0-7516-4541-b6cf-1dba3eee2592">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <Button Text="Users' Profiles" FontFamily="Open Sans" Id="eb796dc5-2b22-4340-a633-0f7ad3cd7df5" Panel.Bounds="71,219,212{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/List of Users.screen" Created="11/07/2017 14:08:59" Id="46b08063-7757-43f1-b517-f0598311d2af">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <Button Text="Mute/Ban users " FontFamily="Open Sans" Id="b7cd4b5e-d0ff-4e3e-886d-0ad64ed5b9ba" Panel.Bounds="71,272,212{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/EditProfile.screen" Created="11/07/2017 14:06:21" Id="ed711f38-ac96-48e1-b0ae-6bcb9452f8cd">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="90b86a90-3c86-4b10-9022-a9f8a34af36d">
+                            <Add.Item>
+                                <Button Text="Chat Rooms" FontFamily="Open Sans" Id="3e252a08-c9f9-4b82-9ca8-4a28425a85f8" Panel.Bounds="71,329,212{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/SignedInHomeScreen.screen" Created="11/07/2017 14:07:06" Id="8e454334-8565-4c0c-9e35-73dacf8b09e2">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

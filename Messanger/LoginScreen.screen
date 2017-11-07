@@ -87,7 +87,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="c26b54ff-dee5-4c93-ab75-08a5654b5594">
                             <Add.Item>
-                                <i:Button Text="Or continue unregistered" Background="#FFE2E2E2" CornerRadius="8" Foreground="#FF4281D0" FontFamily="Roboto Condensed" Id="c6fb7d29-453b-44f1-ab4f-3ef26db06dbe" Panel.Bounds="71,415,233{16,2147483647},30{16,2147483647}">
+                                <i:Button Text="Or continue unregistered" Background="#FFE2E2E2" CornerRadius="8" Foreground="#FF4281D0" FontFamily="Roboto Condensed" Id="c6fb7d29-453b-44f1-ab4f-3ef26db06dbe" Panel.Bounds="69,459,233{16,2147483647},30{16,2147483647}">
                                     <i:Button.Click>
                                         <CommandNavigate Screen="/UnauthorizedPickUsername.screen" Created="11/04/2017 13:26:16" Id="5d972cdc-5ea3-45ec-a4ae-34195a50c4d5">
                                             <CommandNavigate.Transition>
@@ -109,6 +109,19 @@
                                         </CommandNavigate>
                                     </i:Link.Click>
                                 </i:Link>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c26b54ff-dee5-4c93-ab75-08a5654b5594">
+                            <Add.Item>
+                                <CheckBox Text="As Administrator" IsChecked="True" Foreground="#FFCB6009" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="caddd722-807f-4387-bb91-263b69cbefe1" Panel.Bounds="107,418,5*{5,2147483647},5*{5,2147483647}">
+                                    <CheckBox.Checked>
+                                        <CommandNavigate Screen="/Administrator Intro Screen.screen" Created="11/07/2017 13:01:14" Id="b385c96b-0b4c-4fe5-8ccd-669f33c6d299">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </CheckBox.Checked>
+                                </CheckBox>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

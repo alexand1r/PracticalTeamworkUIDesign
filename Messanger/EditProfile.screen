@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                Id="1441b384-5417-4546-a236-5162d37ead35">
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="1441b384-5417-4546-a236-5162d37ead35">
     <Page.Content>
         <Content Width="375" Height="647" Id="786ee567-10a8-4a8c-a731-45ada447b17d">
             <Content.Layers>
@@ -111,6 +111,30 @@
                         <Add Property="Panel.Children" Target="f2db13ad-76e5-407e-b7e3-2513d296d14f">
                             <Add.Item>
                                 <i:TextField Text="Choose file" FontSize="10" FontFamily="Open Sans" Id="74a42dec-806a-4e76-8457-7a4b6fcb1d4b" Panel.Bounds="273,144,73{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f2db13ad-76e5-407e-b7e3-2513d296d14f">
+                            <Add.Item>
+                                <ContainerBox Background="#FFE9F0DA" Id="2888cad7-f9e5-4b0e-8a0d-9bfd54fb5e99" Panel.Bounds="0,539,375{5,2147483647},108{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="2fcf03f0-91a0-4166-bbfa-77127853bcc3" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f2db13ad-76e5-407e-b7e3-2513d296d14f">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;14&quot; &gt;Administrator's Pane&lt;/Run&gt;" FontSize="11" FontFamily="Open Sans" Id="01940d0c-fc15-40be-a7fd-eac8a34fe0f8" Panel.Bounds="15,549,184{5,2147483647},15*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f2db13ad-76e5-407e-b7e3-2513d296d14f">
+                            <Add.Item>
+                                <CheckBox Text="Mute this  user" FontFamily="Open Sans" Id="eb7af919-bde8-4f58-99f1-dc54e76116b6" Panel.Bounds="22,570,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f2db13ad-76e5-407e-b7e3-2513d296d14f">
+                            <Add.Item>
+                                <CheckBox Text="Ban this user" FontFamily="Open Sans" Id="29beb40c-39c2-4882-b94b-9e7b41a96cc8" Panel.Bounds="22,603,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
