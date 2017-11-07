@@ -3,7 +3,7 @@
 Contributors:
 	Александър Ангелов - alecc,
 	Димитър Петров - ,
-	Тодор Ченков - ,
+	Тодор Ченков - joto_to,
 	Йоханес Богосян - 
 	
 Provide the following functionality to all visitors (without authentication):
