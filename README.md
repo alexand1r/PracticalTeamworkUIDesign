@@ -1,5 +1,11 @@
 # PracticalTeamworkUIDesign
 
+Contributors:
+	Александър Ангелов - alecc,
+	Димитър Петров - ,
+	Тодор Ченков - ,
+	Йоханес Богосян - 
+	
 Provide the following functionality to all visitors (without authentication):
   * Send messages anonymously under a nickname
   * Join public chat rooms
